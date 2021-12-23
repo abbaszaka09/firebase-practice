@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 }
               },
               child: CircleAvatar(
-                backgroundColor: Colors.blueAccent,
+                backgroundColor: Colors.grey,
                 radius: 100,
                 backgroundImage: file != null ? FileImage(file!) : null,
                 child: file == null
